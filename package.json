@@ -6,8 +6,7 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
-    "start": "node -r dotenv/config dist/index",
-    "postinstall": "npm run build"
+    "start": "node -r dotenv/config dist/index"
   },
   "keywords": [],
   "author": "",
